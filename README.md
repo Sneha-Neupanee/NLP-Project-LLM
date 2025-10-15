@@ -1,4 +1,4 @@
-# 🦋 Sentiment Vibes Analyzer 💖
+#  Sentiment Vibes Analyzer 
 
 Welcome to **Sentiment Vibes Analyzer** — a fabulous, butterfly-themed AI web app that detects the emotional vibe of your text! Built with 💻 Flask, 🤗 Hugging Face Transformers, and 💅 glittering pink frontend magic.
 
