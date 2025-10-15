@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💖 Sentiment Vibes</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🦋 Sentiment Vibes Analyzer 💫</h1>
+    <img src="{{ url_for('static', filename='barbie.jpg') }}" class="butterfly" alt="Barbie" />
+
+    <form id="sentiment-form">
+      <textarea id="text-input" placeholder="Type something fabulous..."></textarea>
+      <button type="submit">✨ Analyze 💬</button>
+    </form>
+    <div id="result" class="result-box hidden"></div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
